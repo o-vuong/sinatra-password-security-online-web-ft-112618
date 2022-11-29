@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "sinatra"
+gem "sinatra", ">= 2.2.3"
 gem "activerecord", '<= 5.1'
 gem "sinatra-activerecord"
 gem "rake"
