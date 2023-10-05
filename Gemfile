@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 gem "sinatra"
-gem "activerecord", '<= 5.1'
+gem "activerecord", "~> 5.1", ">= 5.1.1"
 gem "sinatra-activerecord"
 gem "rake"
 gem "bcrypt"
