@@ -1,9 +1,9 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "sinatra"
+gem "sinatra", ">= 4.0.0"
 gem "activerecord", '<= 5.1'
-gem "sinatra-activerecord"
+gem "sinatra-activerecord", ">= 2.0.14"
 gem "rake"
 gem "bcrypt"
 gem "rspec"
