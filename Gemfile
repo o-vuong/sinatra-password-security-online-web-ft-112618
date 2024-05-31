@@ -8,7 +8,7 @@ gem "rake"
 gem "bcrypt"
 gem "rspec"
 gem "require_all"
-gem "capybara"
+gem "capybara", ">= 3.14.0"
 gem "pry"
 gem "sqlite3"
 gem 'shotgun'
